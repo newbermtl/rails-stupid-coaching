@@ -1,3 +1,37 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.ask-btn {
+  background: blue;
+  color: white;
+  border: 2px solid black;
+  border-radius: 16px;
+  font-size: 16px;
+  padding: 8px 16px;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.question-bar {
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+  padding: 8px;
+}
+
+.coach-answer {
+  background-color: rgba(223, 244, 88, 0.6);
+}
+
+.user-question {
+  background-color: rgba(52, 220, 249, 0.6);
+}
+
+.answerbox {
+  padding: 16px 8px;
+  border: 1px solid grey;
+  border-radius: 16px;
+}
